@@ -1,0 +1,38 @@
+{
+  "name": "http-router-connect",
+  "version": "1.0.0",
+  "description": "A simple, composable Typescript router for developers who need only routing and connect support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "publish": "npx tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wworrall/http-router-connect.git"
+  },
+  "keywords": [
+    "Express",
+    "Express.js",
+    "router",
+    "connect middleware",
+    "http",
+    "server",
+    "simple"
+  ],
+  "author": "Will Worrall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wworrall/http-router-connect/issues"
+  },
+  "homepage": "https://github.com/wworrall/http-router-connect#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "regexparam": "^2.0.1"
+  }
+}
