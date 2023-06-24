@@ -1,7 +1,7 @@
 {
   "name": "http-router-connect",
   "version": "1.0.0",
-  "description": "A simple, composable Typescript router for developers who need only routing and connect support",
+  "description": "A lightweight, composable router for developers who like express.js' API but only need routing and connect-middleware support. Written in Typescript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

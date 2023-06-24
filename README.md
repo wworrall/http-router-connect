@@ -10,7 +10,7 @@ It has only one dependency: [`regexparam`](https://www.npmjs.com/package/regexpa
 
 ## Key Features
 
-- Support composable/nested routers for easy code organisation.
+- Supports composable/nested routers for easy code organisation.
 - Supports the safe throwing of errors in asynchronous request handlers so no need for [`express-async-errors`](https://www.npmjs.com/package/express-async-errors). Phew.
 - Child routers, middleware, and request handlers are all executed in the order they are registered - there is no hierarchy to be aware of.
 - Parameterized requests are supported (as well as powerful routing capabilities) with [`regexparam`](https://www.npmjs.com/package/regexparam)
